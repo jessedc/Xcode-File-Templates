@@ -43,6 +43,17 @@
 // your base class overrides here
 
 /*
+- (void)sizeThatFits:(CGSize)size;
+{
+  return size;
+}
+
+- (void)layoutSubviews;
+{
+}
+*/
+
+/*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect;

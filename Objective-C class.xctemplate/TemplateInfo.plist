@@ -8,7 +8,7 @@
 		<string>public.objective-c-plus-plus-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>MyClass</string>
+	<string>Class</string>
 	<key>Description</key>
 	<string>An Objective-C class, with implementation and header files.</string>
 	<key>Kind</key>
