@@ -18,18 +18,18 @@
 - (id)initWithFrame:(CGRect)frame;
 {
   if ((self = [super initWithFrame:frame]))
-	{
-      // Initialization code
+  {
+    // Initialization code
   }
-  
-	return self;
+
+  return self;
 }
 
 - (void)dealloc;
 {
-	// release your properties here
-	
-	[super dealloc];
+  // release your properties here
+
+  [super dealloc];
 }
 
 
@@ -47,8 +47,9 @@
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect;
 {
-    // Drawing code
+  // Drawing code
 }
 */
+
 
 @end

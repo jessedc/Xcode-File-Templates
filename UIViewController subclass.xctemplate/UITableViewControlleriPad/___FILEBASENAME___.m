@@ -18,7 +18,7 @@
 - (id)initWithStyle:(UITableViewStyle)style;
 {
   if ((self = [super initWithStyle:style]))
-	{
+  {
     // Initialization code
   }
 
@@ -27,16 +27,16 @@
 
 - (void)dealloc;
 {
-	// release your properties here
-	
-	[super dealloc];
+  // release your properties here
+
+  [super dealloc];
 }
 
 - (void)didReceiveMemoryWarning;
 {
   // Releases the view if it doesn't have a superview.
   [super didReceiveMemoryWarning];
-  
+
   // Release any cached data, images, etc that aren't in use.
 }
 
@@ -89,7 +89,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation;
 {
   // Return YES for supported orientations
-return YES;
+  return YES;
 }
 
 
@@ -112,14 +112,16 @@ return YES;
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
 {
   static NSString *CellIdentifier = @"Cell";
-  
+
   UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-  if (cell == nil) {
-      cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+  
+  if (cell == nil)
+  {
+    cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
   }
-  
+
   // Configure the cell...
-  
+
   return cell;
 }
 
@@ -171,12 +173,12 @@ return YES;
 {
   // Navigation logic may go here. Create and push another view controller.
   /*
-   <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-   // ...
-   // Pass the selected object to the new view controller.
-   [self.navigationController pushViewController:detailViewController animated:YES];
-   [detailViewController release];
-   */
+  <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+  // ...
+  // Pass the selected object to the new view controller.
+  [self.navigationController pushViewController:detailViewController animated:YES];
+  [detailViewController release];
+  */
 }
 
 @end

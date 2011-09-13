@@ -17,7 +17,7 @@
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier;
 {
   if ((self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]))
-	{
+  {
     // Initialization code
   }
 
@@ -26,9 +26,9 @@
 
 - (void)dealloc;
 {
-	// release your properties here
-	
-	[super dealloc];
+  // release your properties here
+
+  [super dealloc];
 }
 
 
@@ -43,9 +43,9 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 {
-    [super setSelected:selected animated:animated];
+  [super setSelected:selected animated:animated];
 
-    // Configure the view for the selected state
+  // Configure the view for the selected state
 }
 
 @end

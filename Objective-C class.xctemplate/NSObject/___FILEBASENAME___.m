@@ -18,18 +18,18 @@
 - (id)init;
 {
   if ((self = [super init]))
-	{
+  {
     // Initialization code
   }
-  
+
   return self;
 }
 
 - (void)dealloc;
 {
-	// release your properties here
-	
-	[super dealloc];
+  // release your properties here
+
+  [super dealloc];
 }
 
 
