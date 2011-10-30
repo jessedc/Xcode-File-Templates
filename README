@@ -1,1 +1,2 @@
-git clone git://github.com/icaruswings/Xcode-File-Templates ~/Library/Developer/Xcode/Templates/File\ Templates/Awesome\ Cocoa\ Touch
+git clone git://github.com/jessec/Xcode-File-Templates ~/Library/Developer/Xcode/Templates/File\ Templates/Awesome\ Cocoa\ Touch
+cd ~/Library/Developer/Xcode/Templates/File\ Templates/Awesome\ Cocoa\ Touch
