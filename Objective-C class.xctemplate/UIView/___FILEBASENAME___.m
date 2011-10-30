@@ -43,7 +43,7 @@
 // your base class overrides here
 
 /*
-- (void)sizeThatFits:(CGSize)size;
+- (CGSize)sizeThatFits:(CGSize)size;
 {
   return size;
 }
